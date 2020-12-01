@@ -18,7 +18,7 @@ public class MyQueue {
 			return myLinkedList.head;
 		}
 		
-		public INode pop() {
+		public INode dequeue() {
 			return myLinkedList.popLast();
 		}
 }
